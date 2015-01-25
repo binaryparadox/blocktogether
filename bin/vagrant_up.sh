@@ -11,6 +11,7 @@ sudo chown -R "$USER" /data/blocktogether
 
 cd /vagrant && npm install
 ./node_modules/sequelize/bin/sequelize --config /etc/blocktogether/sequelize.json -m
+npm install sequelize-cli
 
 echo
 echo "Vagrant bootstrap complete. Refer to the README for more setup instructions."
